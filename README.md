@@ -22,8 +22,8 @@ _My solutions to:
   | **[04](https://adventofcode.com/2021/day/4)** | [solution](src/main/scala/adventofcode/Day04.scala) | `35135` | `34264` |  |
   | **[05](https://adventofcode.com/2021/day/5)** | [solution](src/main/scala/adventofcode/Day05.scala) | `25102` | `19932` |  |
   | **[06](https://adventofcode.com/2021/day/6)** | [solution](src/main/scala/adventofcode/Day06.scala) | `23832` | `24902` | 😥 |
-  | **[07](https://adventofcode.com/2021/day/7)** | [](src/main/scala/adventofcode/Day07.scala) |  |  |  |
-  | **[08](https://adventofcode.com/2021/day/8)** | [](src/main/scala/adventofcode/Day08.scala) |  |  |  |
+  | **[07](https://adventofcode.com/2021/day/7)** | [solution](src/main/scala/adventofcode/Day07.scala) | `15020` | `50880` | 😩 |
+  | **[08](https://adventofcode.com/2021/day/8)** | [solution](src/main/scala/adventofcode/Day08.scala) | `10880` | `10299` |  |
   | **[09](https://adventofcode.com/2021/day/9)** | [](src/main/scala/adventofcode/Day09.scala) |  |  |  |
   | **[10](https://adventofcode.com/2021/day/10)** | [](src/main/scala/adventofcode/Day10.scala) |  |  |  |
   | **[11](https://adventofcode.com/2021/day/11)** | [](src/main/scala/adventofcode/Day11.scala) |  |  |  |
