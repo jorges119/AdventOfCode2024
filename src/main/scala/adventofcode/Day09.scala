@@ -6,7 +6,6 @@ import scala.annotation.tailrec
 
 @main def Day09 = Day(9) { (input, part) =>
 
-  val test = """2333133121414131402"""
   val i =
     input.trim
       .grouped(2)

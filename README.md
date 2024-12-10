@@ -25,7 +25,7 @@ _My solutions to:
   | **[07](https://adventofcode.com/2021/day/7)** | [solution](src/main/scala/adventofcode/Day07.scala) | `15020` | `50880` | 😩 |
   | **[08](https://adventofcode.com/2021/day/8)** | [solution](src/main/scala/adventofcode/Day08.scala) | `10880` | `10299` |  |
   | **[09](https://adventofcode.com/2021/day/9)** | [solution](src/main/scala/adventofcode/Day09.scala) | `19191` | `13246` |  |
-  | **[10](https://adventofcode.com/2021/day/10)** | [](src/main/scala/adventofcode/Day10.scala) |  |  |  |
+  | **[10](https://adventofcode.com/2021/day/10)** | [solution](src/main/scala/adventofcode/Day10.scala) | `15644` | `15082` |  |
   | **[11](https://adventofcode.com/2021/day/11)** | [](src/main/scala/adventofcode/Day11.scala) |  |  |  |
   | **[12](https://adventofcode.com/2021/day/12)** | [](src/main/scala/adventofcode/Day12.scala) |  |  |  |
   | **[13](https://adventofcode.com/2021/day/13)** | [](src/main/scala/adventofcode/Day13.scala) |  |  |  |
