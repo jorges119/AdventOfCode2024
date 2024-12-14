@@ -29,7 +29,7 @@ _My solutions to:
   | **[11](https://adventofcode.com/2024/day/11)** | [solution](src/main/scala/adventofcode/Day11.scala) | `18062` | `12534` |  |
   | **[12](https://adventofcode.com/2024/day/12)** | [solution](src/main/scala/adventofcode/Day12.scala) | `14811` | `9806` |  |
   | **[13](https://adventofcode.com/2024/day/13)** | [solution](src/main/scala/adventofcode/Day13.scala) | `15594` | `18339` |  |
-  | **[14](https://adventofcode.com/2024/day/14)** | [](src/main/scala/adventofcode/Day14.scala) |  |  |  |
+  | **[14](https://adventofcode.com/2024/day/14)** | [solution](src/main/scala/adventofcode/Day14.scala) | `9303` | `12643` |  |
   | **[15](https://adventofcode.com/2024/day/15)** | [](src/main/scala/adventofcode/Day15.scala) |  |  |  |
   | **[16](https://adventofcode.com/2024/day/16)** | [](src/main/scala/adventofcode/Day16.scala) |  |  |  |
   | **[17](https://adventofcode.com/2024/day/17)** | [](src/main/scala/adventofcode/Day17.scala) |  |  |  |
