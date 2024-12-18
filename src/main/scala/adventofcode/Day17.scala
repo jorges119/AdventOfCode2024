@@ -3,24 +3,8 @@ package adventofcode
 import common.Support.*
 import scala.util.chaining._
 import scala.annotation.tailrec
-import scala.concurrent.*
-import scala.concurrent.duration.*
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.util.{ Failure, Success }
 
 @main def Day17 = Day(17) { (input, part) =>
-
-  val test = """Register A: 729
-Register B: 0
-Register C: 0
-
-Program: 0,1,5,4,3,0"""
-
-  val test2 = """Register A: 2024
-Register B: 0
-Register C: 0
-
-Program: 0,3,5,4,3,0"""
 
   val (registers, i) =
     input.trim
@@ -61,14 +45,14 @@ Program: 0,3,5,4,3,0"""
     })
 
   @tailrec
-  def process(program: List[Int], reg: Map[Char, Long], output: List[Int], check: Boolean = false): String =
+  def process(program: List[Int], reg: Map[Char, Long], output: List[Int], check: Boolean = false): List[Int] =
     val next = reg('P').toInt + 2
     if (
       next >= program.length || (check && !output.isEmpty && (program(output.length - 1) != output(
         output.length - 1
       )))
     )
-      return output.mkString(",")
+      return output
     else
       process(
         program,
@@ -76,25 +60,18 @@ Program: 0,3,5,4,3,0"""
         output ++ reg.filter(_._1 == 'O').map(_._2.toInt)
       )
 
-  def search(start: Long, stop: Long, program: List[Int], reg: Map[Char, Long]): Long =
-    if (start >= stop) return -1
-    else if (process(program, reg + ('A' -> start), List(), true) == i.mkString(","))
-      println(s"Solution: $start")
-      return start
-    else search(start + 1, stop, program, reg)
+  part(1) = process(i, registers, List()).map(_.toString).mkString(",")
 
-  part(1) = process(i, registers, List())
-
-  val chunkSize = 1000000L
-  val max: Long = Int.MaxValue * 8L
-  val min: Long = Int.MaxValue * 2L
-  val threads = (((max - min) / chunkSize) + 1).toInt
-  println(s"Starting $threads threads")
-
-  val tasks = (threads until 0 by -1)
-    .map(n => Future(search((n * chunkSize) + min, (((n + 1) * chunkSize) + min) min max, i, registers)))
-
-  val f = Future.sequence(tasks)
-
-  part(2) = Await.result(f, 240.minute).filter(_ > 0).reduceOption(_ min _).getOrElse(-2)
+  part(2) = (0 to i.length)
+    .foldLeft(List(0x000000000000L))((b, n) =>
+      b.flatMap(l =>
+        (0 to 7)
+          .map(v =>
+            val newV = (l + (v.toLong << ((i.length - n) * 3)))
+            (newV, process(i, registers + ('A' -> newV), List()))
+          )
+      ).filter(_._2.reverse.take(n) == i.reverse.take(n))
+        .map(_._1)
+    )
+    .min
 }

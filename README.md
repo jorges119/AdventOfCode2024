@@ -32,7 +32,7 @@ _My solutions to:
   | **[14](https://adventofcode.com/2024/day/14)** | [solution](src/main/scala/adventofcode/Day14.scala) | `9303` | `12643` |  |
   | **[15](https://adventofcode.com/2024/day/15)** | [solution](src/main/scala/adventofcode/Day15.scala) | `7181` | `5683` |  |
   | **[16](https://adventofcode.com/2024/day/16)** | [solution](src/main/scala/adventofcode/Day16.scala) | `9031` | `7073` |  |
-  | **[17](https://adventofcode.com/2024/day/17)** | [solution](src/main/scala/adventofcode/Day17.scala) | `13370` |  | 😤 Brute force or nothing |
+  | **[17](https://adventofcode.com/2024/day/17)** | [solution](src/main/scala/adventofcode/Day17.scala) | `13370` | `17062` | 😤 Brute force didn't fly |
   | **[18](https://adventofcode.com/2024/day/18)** | [solution](src/main/scala/adventofcode/Day18.scala) | `10714` | `10185` |  |
   | **[19](https://adventofcode.com/2024/day/19)** | [](src/main/scala/adventofcode/Day19.scala) |  |  |  |
   | **[20](https://adventofcode.com/2024/day/20)** | [](src/main/scala/adventofcode/Day20.scala) |  |  |  |
