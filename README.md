@@ -34,7 +34,7 @@ _My solutions to:
   | **[16](https://adventofcode.com/2024/day/16)** | [solution](src/main/scala/adventofcode/Day16.scala) | `9031` | `7073` |  |
   | **[17](https://adventofcode.com/2024/day/17)** | [solution](src/main/scala/adventofcode/Day17.scala) | `13370` | `17062` | 😤 Brute force didn't fly |
   | **[18](https://adventofcode.com/2024/day/18)** | [solution](src/main/scala/adventofcode/Day18.scala) | `10714` | `10185` |  |
-  | **[19](https://adventofcode.com/2024/day/19)** | [](src/main/scala/adventofcode/Day19.scala) |  |  |  |
+  | **[19](https://adventofcode.com/2024/day/19)** | [solution](src/main/scala/adventofcode/Day19.scala) | `10181` | `10458` |  |
   | **[20](https://adventofcode.com/2024/day/20)** | [](src/main/scala/adventofcode/Day20.scala) |  |  |  |
   | **[21](https://adventofcode.com/2024/day/21)** | [](src/main/scala/adventofcode/Day21.scala) |  |  |  |
   | **[22](https://adventofcode.com/2024/day/22)** | [](src/main/scala/adventofcode/Day22.scala) |  |  |  |
